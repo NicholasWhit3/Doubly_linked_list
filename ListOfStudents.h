@@ -40,7 +40,6 @@ public:
 	void print();
 	void pushBack(Student* newStudent = nullptr);			
 	void pushFront(Student* newStudent = nullptr);			
-	Student* read();
 	Student* purgeBack();									
 	Student* purgeFront();
 	Student* purge(int number);
@@ -48,7 +47,7 @@ public:
 	void deleteFront();
 	void deleteNumber(int number);
 	void InsertPosition(Student* newStudent, int position);
-	int getCounterOfStudent() { return counterOfStudent; };		//счетчик студентов за всё время.
+	int getCounterOfStudent() { return counterOfStudent; };		
 	Student* findStudent(std::string name);
 	ListOfStudents* findStudents(std::string name);
 
